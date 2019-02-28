@@ -33,9 +33,14 @@ const router = new Router({
             component: () => import('./views/Me.vue')
           },
           {
-            path: '/address',
-            name: 'address',
-            component: () => import('./views/Address.vue')
+            path: '/addresss',
+            name: 'addresss',
+            component: () => import('./views/Addresss.vue')
+          },
+          {
+            path: '/city',
+            name: 'city',
+            component: () => import('./views/City.vue')
           },
       ]
     },
